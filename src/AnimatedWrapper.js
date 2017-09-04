@@ -48,7 +48,6 @@ const AnimatedWrapper = WrappedComponent => (
           in={_in}
           timeout={200}
           onEnter={this.handleEnter}
-          onEntering={this.handleEntering}
           onExit={this.handleExit}
           appear
         >
