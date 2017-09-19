@@ -1,5 +1,4 @@
 import React from 'react';
-import AnimatedWrapper from "./AnimatedWrapper";
 
 const Subpage = () => (
   <div className="page">
@@ -10,4 +9,4 @@ const Subpage = () => (
 
 Subpage.displayName = 'Subpage';
 
-export default AnimatedWrapper(Subpage);
+export default Subpage;

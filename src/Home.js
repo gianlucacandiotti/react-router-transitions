@@ -1,5 +1,4 @@
 import React from 'react';
-import AnimatedWrapper from "./AnimatedWrapper";
 
 const Home = () => (
   <div className="page">
@@ -10,4 +9,4 @@ const Home = () => (
 
 Home.displayName = 'Home';
 
-export default AnimatedWrapper(Home);
+export default Home;
